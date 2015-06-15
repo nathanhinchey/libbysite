@@ -75,6 +75,10 @@ main {
   text-shadow: 0 1px #000;
 }
 
+article li {
+  list-style: disc;
+}
+
 .group::after {
   content: "";
   clear: both;
