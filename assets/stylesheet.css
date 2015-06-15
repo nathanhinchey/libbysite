@@ -25,6 +25,11 @@ h2 {
   font-size: 36px;
 }
 
+p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
 main {
   width: 800px;
   margin: 0 auto;
@@ -61,7 +66,7 @@ main {
   background: #44A;
 }
 
-.main-nav a:hover {
+.main-nav a.inactive:hover {
   background: #666;
   color: #fff;
   text-shadow: 0 1px #000;
