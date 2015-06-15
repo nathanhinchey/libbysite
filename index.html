@@ -22,7 +22,7 @@
     <script charset="utf-8">
       document.onclick = function(event) {
         var target = event.target;
-        if (target.className = "inactive"){
+        if (target.className == "inactive"){
           document.getElementsByClassName("active")[0].className = "inactive";
           target.className = "active";
         }
