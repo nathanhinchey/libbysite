@@ -49,7 +49,7 @@
 
     contact: function(){
       this.removeActive();
-      $("contact-nav-link").addClass("active");
+      $("#contact-nav-link").addClass("active");
       var view = new LibbySite.Views.Contact({$el: this.$el});
       this.swapView(view);
     },
