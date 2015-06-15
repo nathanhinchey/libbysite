@@ -77,10 +77,10 @@ main {
 
 article li {
   list-style: disc;
+  padding-left: 20px;
 }
 
 article ul {
-  margin-left: 20px;
 }
 
 .group::after {
