@@ -39,14 +39,27 @@ main {
   margin: 20px auto;
 }
 
+/* HEADER */
+
+header > h1 {
+  width: 800px;
+  margin: auto;
+  margin-top: 50px;
+}
+
 .main-nav {
   width: 100%;
   height: 50px;
-  background: #555;
-  color: #EEE;
+  background: darkgreen;
+  color: #FEA;
   text-shadow: 0 1px 1px #000;
   border: 1px solid #aaa;
   margin-bottom: 15px;
+}
+
+.main-nav > ul {
+  width: 800px;
+  margin: 0 auto;
 }
 
 .main-nav li {
@@ -54,6 +67,10 @@ main {
   padding: 0;
   width: 150px;
   border-right: 1px solid #aaa;
+}
+
+.main-nav li:first-child {
+  border-left: 1px solid #aaa;
 }
 
 .main-nav a {
@@ -67,6 +84,7 @@ main {
 
 .main-nav a.active {
   background: #44A;
+  color: #FFF;
 }
 
 .main-nav a.inactive:hover {
@@ -75,6 +93,7 @@ main {
   text-shadow: 0 1px #000;
 }
 
+/* MAIN SECTION */
 article li {
   list-style: disc;
   padding-left: 20px;
