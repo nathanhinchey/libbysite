@@ -79,6 +79,10 @@ article li {
   list-style: disc;
 }
 
+article ul {
+  margin-left: 20px;
+}
+
 .group::after {
   content: "";
   clear: both;
