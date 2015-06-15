@@ -54,6 +54,11 @@ main {
   height: 100%;
   padding: 15px 30px;
   transition: background 0.03s, text-shadow 0.05s;
+  text-align: center;
+}
+
+.main-nav a.active {
+  background: #44A;
 }
 
 .main-nav a:hover {
