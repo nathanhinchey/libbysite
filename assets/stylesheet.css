@@ -88,3 +88,7 @@ article ul {
   clear: both;
   display: block;
 }
+
+.testimonials > li {
+  border-bottom: 5px solid gray;
+}
