@@ -90,7 +90,7 @@ article ul {
 }
 
 .testimonials > li {
-  border-top: 5px solid light;
+  border-top: 5px solid lightgray;
   list-style: none;
   padding: 20px;
 }
