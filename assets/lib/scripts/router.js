@@ -19,26 +19,32 @@
       "about": "about",
       "testimonials": "testimonials",
       "contact": "contact",
+      "faq": "faq"
     },
 
     home: function(){
-      var homeView = new LibbySite.Views.Home({$el: this.$el});
-      this.swapView(homeView);
+      var view = new LibbySite.Views.Home({$el: this.$el});
+      this.swapView(view);
     },
 
     about: function(){
-      var homeView = new LibbySite.Views.About({$el: this.$el});
-      this.swapView(homeView);
+      var view = new LibbySite.Views.About({$el: this.$el});
+      this.swapView(view);
     },
 
     testimonials: function(){
-      var homeView = new LibbySite.Views.Testimonials({$el: this.$el});
-      this.swapView(homeView);
+      var view = new LibbySite.Views.Testimonials({$el: this.$el});
+      this.swapView(view);
     },
 
     contact: function(){
-      var homeView = new LibbySite.Views.Contact({$el: this.$el});
-      this.swapView(homeView);
+      var view = new LibbySite.Views.Contact({$el: this.$el});
+      this.swapView(view);
     },
+
+    faq: function() {
+      var view = new LibbySite.Views.Faq({$el: this.$el});
+      this.swapView(view);
+    }
   })
 }());
