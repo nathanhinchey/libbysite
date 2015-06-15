@@ -8,7 +8,7 @@
     initialize: function(){
       new LibbySite.Views.Home({el: "#main-section"});
 
-      var LibbySite.router = new LibbySite.Routers.Router({$el: $("#main-section")});
+      window.LibbySite.router = new LibbySite.Routers.Router({$el: $("#main-section")});
       Backbone.history.start();
     }
   };
