@@ -10,24 +10,24 @@
         <h1>Libby Vega Tutoring</h1>
         <nav class="main-nav">
           <ul class="group">
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#about" class="inactive">About Me</a></li>
-            <li><a href="#testimonials" class="inactive">Testimonials</a></li>
-            <li><a href="#faq" class="inactive">FAQ</a></li>
-            <li><a href="#contact" class="inactive">Contact</a></li>
+            <li><a href="#" class="active" id="home-nav-link">Home</a></li>
+            <li><a href="#about" id="about-nav-link">About Me</a></li>
+            <li><a href="#testimonials" id="testimonials-nav-link">Testimonials</a></li>
+            <li><a href="#faq" id="faq-nav-link">FAQ</a></li>
+            <li><a href="#contact" id="contact-nav-link">Contact</a></li>
           </ul>
         </nav>
       </header>
     <main id="main-section">
     </main>
     <script charset="utf-8">
-      document.onclick = function(event) {
-        var target = event.target;
-        if (target.className == "inactive"){
-          document.getElementsByClassName("active")[0].className = "inactive";
-          target.className = "active";
-        }
-      }
+      // document.onclick = function(event) {
+      //   var target = event.target;
+      //   if (target.className == "inactive"){
+      //     document.getElementsByClassName("active")[0].className = "inactive";
+      //     target.className = "active";
+      //   }
+      // }
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="assets/lib/scripts/ejs_production.js"></script>
