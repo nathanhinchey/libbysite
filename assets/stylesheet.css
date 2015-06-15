@@ -91,4 +91,10 @@ article ul {
 
 .testimonials > li {
   border-bottom: 5px solid gray;
+  list-style: none;
+  padding: 20px;
+}
+
+.testimonials img {
+  display: block;
 }
