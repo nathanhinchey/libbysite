@@ -1,6 +1,6 @@
 (function() {
   "use strict";
-  LibbySite.Views.Home = Backbone.View.extend({
+  LibbySite.Views.Faq = Backbone.View.extend({
     template: function(data){
       return new EJS({url: "assets/lib/templates/faq.ejs"}).render(data);
     },
